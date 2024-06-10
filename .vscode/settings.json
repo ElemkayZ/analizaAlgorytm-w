@@ -43,6 +43,10 @@
         "chrono": "cpp",
         "ratio": "cpp",
         "deque": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "ctime": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "random": "cpp"
     }
 }
