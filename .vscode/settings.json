@@ -47,6 +47,9 @@
         "ctime": "cpp",
         "list": "cpp",
         "queue": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "iomanip": "cpp",
+        "xlocmon": "cpp",
+        "xloctime": "cpp"
     }
 }
