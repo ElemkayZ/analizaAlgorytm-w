@@ -7,18 +7,27 @@ using namespace std;
 
     void TicTacToe::printBoard() {
         // Print the current state of the board
+        printf("[ ]  ");
+        for (int i = 0; i < size; i++)
+        {
+            printf("[%d]",i);
+        }
+        printf("\n\n");
         for (int i = 0; i < size; ++i) {
+            printf("[%d]  ",i);
             for (int j = 0; j < size; ++j) {
                 char symbol;
+                cout << "[";
                 switch (board[i][j]) {
                     case CellState::X: symbol = 'X'; break;
                     case CellState::O: symbol = 'O'; break;
                     default: symbol = '.'; break;
                 }
-                cout << symbol << " ";
+                cout << symbol << "]";
             }
             cout << endl;
         }
+        printf("\n\n\n");
     }
 
     bool TicTacToe::makeMove(int row, int col, CellState player) {
